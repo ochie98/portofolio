@@ -1,12 +1,12 @@
 // app/page.tsx
 import Image from "next/image";
 import imgProfile from '../public/img/12543216_1152688338076544_2136644828_a (1).jpg';
-import { FaGithub, FaLinkedin, FaInstagram, FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaPhoneAlt, FaEnvelope, FaGlobe, FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
     <main className="font-sans bg-gray-50 min-h-screen">
-      <div className="max-w-5xl mx-auto shadow-lg grid grid-cols-1 md:grid-cols-3 bg-white rounded-xl overflow-hidden">
+      <div className="max-w-5xl mx-auto shadow-lg grid grid-cols-1 md:grid-cols-3 bg-white overflow-hidden">
         
         {/* Sidebar */}
         <aside className="bg-gray-900 text-white p-6 flex flex-col items-center">
@@ -60,7 +60,7 @@ export default function Home() {
                 <span className="text-black text-xs">okipralambang@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
-                <span className="bg-yellow-200 text-yellow-800 rounded-full p-1"><FaGlobe /></span>
+                <span className="bg-yellow-200 text-yellow-800 rounded-full p-1"><FaHome /></span>
                 <span className="text-black text-xs">Perumahan Total Persada Tangerang</span>
               </div>
               <div className="flex gap-2 mt-2">
