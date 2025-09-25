@@ -31,7 +31,12 @@ export default function Home() {
                 <span>Tangerang, 28 Okt 1983</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold">
-                <span className="text-yellow-500 text-lg">👨</span>
+                <span className="text-yellow-500 text-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" fill="none" />
+                    <path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M19 5V9M19 5H15M19 5l-6 6" />
+                  </svg>
+                </span>
                 <span>Laki-Laki</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold">
@@ -77,7 +82,7 @@ export default function Home() {
               Project Web
             </h2>
             <div className="grid gap-3">
-              <a href="https://sekaikhome.co.id/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-yellow-50 border-l-4 border-yellow-400 p-3 rounded shadow hover:bg-yellow-100 transition">
+              <a href="https://sekaihome.co.id/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-yellow-50 border-l-4 border-yellow-400 p-3 rounded shadow hover:bg-yellow-100 transition">
                 <span className="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 text-xs font-bold">sekaikhome.co.id</span>
                 <span className="text-xs text-gray-600">Website Company Profile</span>
               </a>
@@ -85,7 +90,7 @@ export default function Home() {
                 <span className="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 text-xs font-bold">benihbaik.com</span>
                 <span className="text-xs text-gray-600">Website Platform Crowdfunding</span>
               </a>
-              <a href="https://3m.benihbaik.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-yellow-50 border-l-4 border-yellow-400 p-3 rounded shadow hover:bg-yellow-100 transition">
+              <a href="https://m.benihbaik.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 bg-yellow-50 border-l-4 border-yellow-400 p-3 rounded shadow hover:bg-yellow-100 transition">
                 <span className="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 text-xs font-bold">m.benihbaik.com</span>
                 <span className="text-xs text-gray-600">Mobile Platform Crowdfunding</span>
               </a>
@@ -98,7 +103,11 @@ export default function Home() {
           {/* Tentang Saya */}
           <div className="mb-6">
             <h2 className="text-xl font-bold border-b-2 border-yellow-400 pb-1 flex items-center gap-2">
-              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2 animate-bounce"><svg xmlns='http://www.w3.org/2000/svg' className='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 11c0-1.657-1.343-3-3-3s-3 1.343-3 3 1.343 3 3 3 3-1.343 3-3zm0 0c0-1.657 1.343-3 3-3s3 1.343 3 3-1.343 3-3 3-3-1.343-3-3z' /></svg></span>
+              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.655 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </span>
               Tentang Saya
             </h2>
             <div className="mt-4 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded shadow flex flex-col sm:flex-row items-center gap-4">
@@ -158,7 +167,11 @@ export default function Home() {
           {/* Pengalaman Kerja */}
           <div className="mb-6">
             <h2 className="text-xl font-bold border-b-2 border-yellow-400 pb-1 flex items-center gap-2">
-              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2"><svg xmlns='http://www.w3.org/2000/svg' className='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 17v-6a2 2 0 012-2h2a2 2 0 012 2v6m-6 0h6' /></svg></span>
+              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17a2.25 2.25 0 002.25 2.25h0A2.25 2.25 0 0014.25 17m-8.25 0V7.5A2.25 2.25 0 018.25 5.25h7.5A2.25 2.25 0 0118 7.5V17m-12 0h12" />
+                </svg>
+              </span>
               Pengalaman Kerja
             </h2>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -168,7 +181,11 @@ export default function Home() {
                   <span className="text-yellow-500 text-2xl">🏢</span>
                   <span className="font-bold text-gray-800">PT. Tritama Prima Lestari</span>
                 </div>
-                <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold mb-1">Supervisor</span>
+                <div className="flex flex-row gap-2 mb-1">
+                  <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold">Admin Finance</span>
+                  
+                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2013-2014</span>
+                </div>
                 <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
                   <li>Memantau barang masuk</li>
                   <li>Membuat laporan penjualan perkuartal</li>
@@ -200,7 +217,7 @@ export default function Home() {
               {/* Card 4 */}
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded shadow flex flex-col gap-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-yellow-500 text-2xl">🌱</span>
+                  <span className="text-yellow-500 text-2xl">💻</span>
                   <span className="font-bold text-gray-800">Yayasan Benihbaik.com</span>
                 </div>
                 <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold mb-1">Backend Developer</span>
