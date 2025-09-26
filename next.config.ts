@@ -1,14 +1,12 @@
-const isProd = process.env.NODE_ENV === 'production'
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export',
+  output: "export", // untuk static export (GitHub Pages)
+  basePath: "/portofolio", // ganti sesuai nama repo kamu
+  assetPrefix: "/portofolio/",
   images: {
-    unoptimized: true,
+    unoptimized: true, // GitHub Pages tidak support Image Optimization
   },
-  basePath: isProd ? '/portfolio' : '',
-  assetPrefix: isProd ? '/portofolio/' : '',
 };
 
 export default nextConfig;

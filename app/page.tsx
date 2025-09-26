@@ -184,7 +184,7 @@ export default function Home() {
                 <div className="flex flex-row gap-2 mb-1">
                   <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold">Admin Finance</span>
                   
-                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2013-2014</span>
+                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2011 - 2012</span>
                 </div>
                 <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
                   <li>Memantau barang masuk</li>
@@ -198,7 +198,10 @@ export default function Home() {
                   <span className="text-yellow-500 text-2xl">📡</span>
                   <span className="font-bold text-gray-800">PT. Indonesia Media Televisi (BIGTV)</span>
                 </div>
-                <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold mb-1">Verifikator</span>
+                <div className="flex flex-row gap-2 mb-1">
+                  <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold">Verifikator</span>
+                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2012 - 2014</span>
+                </div>
                 <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
                   <li>Verifikator</li>
                 </ul>
@@ -209,7 +212,10 @@ export default function Home() {
                   <span className="text-yellow-500 text-2xl">💻</span>
                   <span className="font-bold text-gray-800">PT. Ximpl Multi Solution</span>
                 </div>
-                <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold mb-1">Web Programmer</span>
+                <div className="flex flex-row gap-2 mb-1">
+                  <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold">Web Programmer</span>
+                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2014 - 2019</span>
+                </div>
                 <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
                   <li>Membuat website dan Content Management System (CMS) admin</li>
                 </ul>
@@ -220,7 +226,10 @@ export default function Home() {
                   <span className="text-yellow-500 text-2xl">💻</span>
                   <span className="font-bold text-gray-800">Yayasan Benihbaik.com</span>
                 </div>
-                <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold mb-1">Backend Developer</span>
+                <div className="flex flex-row gap-2 mb-1">
+                  <span className="inline-block bg-yellow-200 text-yellow-800 text-xs px-2 py-1 rounded-full w-max font-semibold">Backend Developer</span>
+                  <span className="inline-block text-xs px-2 py-1 rounded-full w-max">2019 - sekarang</span>
+                </div>
                 <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
                   <li>Membuat backend API website</li>
                 </ul>
@@ -231,7 +240,11 @@ export default function Home() {
           {/* Kemampuan */}
           <div>
             <h2 className="text-xl font-bold border-b-2 border-yellow-400 pb-1 flex items-center gap-2">
-              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2"><svg xmlns='http://www.w3.org/2000/svg' className='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M16 7a4 4 0 01-8 0M12 17v-1m0 0a4 4 0 01-4-4V7a4 4 0 018 0v5a4 4 0 01-4 4z' /></svg></span>
+              <span className="inline-block bg-yellow-400 text-white rounded-full p-1 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                </svg>
+              </span>
               Kemampuan
             </h2>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
